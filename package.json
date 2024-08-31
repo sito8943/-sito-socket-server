@@ -1,15 +1,22 @@
 {
   "name": "@sito/socket-client",
   "version": "0.0.1",
-  "description": "",
+  "description": "Super small socket server for chats",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
     "test": "node --env-file=.env test.js"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sito8943/-sito-socket-server"
+  },
+  "keywords": [
+    "javascript",
+    "socket",
+    "server"
+  ],
+  "author": "sito8943",
   "license": "MIT",
   "dependencies": {
     "socket.io": "4.7.5"
