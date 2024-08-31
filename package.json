@@ -5,12 +5,16 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "node --env-file=.env test.js"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "dependencies": {
     "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "express": "^4.19.2"
   }
 }
