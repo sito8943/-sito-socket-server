@@ -16,6 +16,8 @@ export class SocketServer {
       if (this.clients[socket.id])
         console.info(socket.id, "has disconnected. Reason:", reason);
     });
+
+    socket.emit("connected", { id: socket.id });
   };
 
   constructor(httpServer) {
